@@ -12,11 +12,16 @@ library(shiny)
 # Define UI for application that draws a histogram
 shinyUI(fluidPage(
     # Application title
+<<<<<<< HEAD
     titlePanel("Comparing Drug Doses In Palliative Care - Opiates and Benzodiazepines"),
+=======
+    titlePanel("Comparing Opiates and Benzo Doses"),
+>>>>>>> 1d05489aafcdc97bc7876b73ea4783d4fa6c8a0e
     
     head("This tool wants to help you do two things:"),
     br(),
     br(),
+<<<<<<< HEAD
     head("First, to visualise the difference between different doses of opiates and benzos. How big a jump is 10mg of Codeine to 10mg of Alfentanil? What do the doses on the patches really mean?"),
     br(),
     br(),
@@ -35,6 +40,17 @@ shinyUI(fluidPage(
     br(),
     br(),
     head("To make comparisons between drugs, drag the individual drug's slider to it's dose (or click the option if a patch), and the graph will automatically form. A 'Total Opiate' and 'Total Benzo' column will appear when these drugs are being used, to show you the cumulative dose of multiple different agents. To reset it, just reload the webpage"),
+=======
+    head("First, to visualise the difference between different doses of opiates and benzodiazepines. How big a jump is 10mg of Codeine to 10mg of Alfentanil? What do the doses on the patches really mean?"),
+    br(),
+    br(),
+    head("Second, to see in another way, the ratio between opiate and benzodiazepine use for your patients in palliative care. What's the balance of opiates and benzos in that pump?"),
+    br(),
+    br(),
+    head("All comparison data is sourced from the Online Scottish Palliative Care Guidelines"),
+    br(),
+    head("All code is available on GitHub. This tool does not store any patient data."),
+>>>>>>> 1d05489aafcdc97bc7876b73ea4783d4fa6c8a0e
          
          
 # https://www.palliativecareguidelines.scot.nhs.uk/guidelines/pain/choosing-and-changing-opioids.aspx"),
@@ -124,7 +140,11 @@ shinyUI(fluidPage(
                             selected = 0)
                ),
         column(3, offset = 1,
+<<<<<<< HEAD
                h3("Benzodiazepines - mg over 24 hours (unless stated as micrograms)"),
+=======
+               h3("Benzos - mg over 24 hours (unless stated as micrograms)"),
+>>>>>>> 1d05489aafcdc97bc7876b73ea4783d4fa6c8a0e
                     sliderInput("diazepam_oral",
                                 "Oral Diazepam:",
                                 min = 0,

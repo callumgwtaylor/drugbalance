@@ -114,8 +114,12 @@ shinyServer(function(input, output) {
             scale_fill_manual(values = graph_fills) + 
             labs(y = "Equivalance of mgs of Oral Diazepam or Morphine / 24 hours",
                  x = "Drug") +
+<<<<<<< HEAD
             theme_minimal() +
             theme(legend.position = "None")
+=======
+            theme_minimal()
+>>>>>>> 1d05489aafcdc97bc7876b73ea4783d4fa6c8a0e
     })
 
 })
