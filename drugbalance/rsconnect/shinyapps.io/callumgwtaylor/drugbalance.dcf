@@ -1,0 +1,10 @@
+name: drugbalance
+title:
+username:
+account: callumgwtaylor
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1841025
+bundleId: 2815693
+url: https://callumgwtaylor.shinyapps.io/drugbalance/
+when: 1582224371.96803
